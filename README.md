@@ -1,5 +1,7 @@
 # VGGR
-<img src='https://raw.githubusercontent.com/m4cit/Deep-Learning-Quran-Recognition/main/gallery/icon.png' align="left" height="200"> VGGR (Video-Game Genre Recognition) is a Deep-Learning Image Classification project. The training, validation, and test datasets consist of gameplay images, as well as different augmentations.
+<img src='https://raw.githubusercontent.com/m4cit/Deep-Learning-Quran-Recognition/main/gallery/icon.png' align="left" height="200">
+
+VGGR (Video-Game Genre Recognition) is a Deep-Learning Image Classification project. The training, validation, and test datasets consist of gameplay images, as well as different augmentations.
 
 
 ## Requirements
@@ -16,7 +18,8 @@ There are currently three Convolutional Neural Network (CNN) models available:
 2. *cnn_v2* | F-score of **58.33 %**
 3. *cnn_v3* | F-score of **64.58 %**
 
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1.png' width="900">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="left" width="900">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="right" width="900">
 
 
 ## Usage
@@ -56,6 +59,7 @@ The training dataset also contains augmentations.
 
 ## Augmentation
 To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in *data/train/metadata/*.
+Then run `python VGGR.py --augment`
 
 
 ## Preprocessing
