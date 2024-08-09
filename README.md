@@ -49,6 +49,10 @@ or
 - You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch (both options require training data).
 
 
+## Model Results (--demo)
+The predictions are available as html files in the *results* folder, and also include the corresponding images.
+
+
 ## Data
 Most of the images are from my own gameplay footage.
 The PES 2012 and FIFA 10 images are from [No Commentary Gameplays](https://www.youtube.com/@NCGameplays) videos, and the FIFA 95 images are from a [10min Gameplay](https://www.youtube.com/@10minGameplay1) video (YouTube).
