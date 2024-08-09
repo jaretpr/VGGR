@@ -43,8 +43,7 @@ or
 >```
 >python VGGR.py --train -m cnn_v1 -d cuda
 >```
-\
-\
+
 - The -m (--model) command defaults to the *cnn_v1** model.
 - The -d (--device) command defaults to *cpu*.
 - You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch (both options require training data).
