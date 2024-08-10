@@ -12,6 +12,9 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
 4. Download the latest source code in [*releases*](https://github.com/m4cit/VGGR/releases), and unzip the train, test, and validation datasets inside the *data* folder.
 
 
+**Note:** The provided training dataset does not contain augmentations.
+
+
 ## Performance
 There are currently three Convolutional Neural Network (CNN) models available:
 
