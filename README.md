@@ -8,7 +8,7 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
 1. Install Python **3.10** or newer.
 2. Install [PyTorch](https://pytorch.org/get-started/locally/) (I used 2.2.2 + cu121)
 3. Install the required packages by running `pip install -r requirements.txt` in your shell of choice. Make sure you are in the project directory.
-4. Download the latest source code in *releases*, and unzip the train, test, and validation datasets.
+4. Download the latest source code in [*releases*](https://github.com/m4cit/VGGR/releases), and unzip the train, test, and validation datasets.
 
 
 ## Performance
@@ -17,6 +17,7 @@ There are currently three Convolutional Neural Network (CNN) models available:
 1. *cnn_v1* | F-score of **70.83 %**
 2. *cnn_v2* | F-score of **58.33 %**
 3. *cnn_v3* | F-score of **64.58 %**
+
 
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="left" width="400">
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="right" width="400">
@@ -45,12 +46,9 @@ or
 >```
 
 - The -m (--model) command defaults to the *cnn_v1** model.
+- The --demo mode creates html files with the predictions and corresponding images inside the *results* folder.
 - The -d (--device) command defaults to *cpu*.
 - You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch (both options require training data).
-
-
-## Model Results (--demo)
-The predictions are available as html files in the *results* folder, and also include the corresponding images.
 
 
 ## Data
