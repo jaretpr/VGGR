@@ -18,8 +18,8 @@ There are currently three Convolutional Neural Network (CNN) models available:
 2. *cnn_v2* | F-score of **58.33 %**
 3. *cnn_v3* | F-score of **64.58 %**
 
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="left" width="900">
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="right" width="900">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="left" width="400">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="right" width="400">
 
 
 ## Usage
