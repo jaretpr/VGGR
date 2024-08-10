@@ -25,10 +25,9 @@ There are currently three Convolutional Neural Network (CNN) models available:
 <br />
 
 ### cnn_v1 --demo examples:
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="left" width="500">
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="right" width="470">
-<br clear="left"/>
-<br clear="right"/>
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="center" width="500">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="center" width="470">
+<br clear="center"/>
 
 <br />
 
