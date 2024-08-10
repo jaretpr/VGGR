@@ -57,7 +57,7 @@ or
 
 ## Data
 Most of the images are from my own gameplay footage.
-The PES 2012 and FIFA 10 images are from [No Commentary Gameplays](https://www.youtube.com/@NCGameplays) videos, and the FIFA 95 images are from a [10min Gameplay](https://www.youtube.com/@10minGameplay1) video (YouTube).
+The PES 2012 and FIFA 10 images are from videos by [No Commentary Gameplays](https://www.youtube.com/@NCGameplays), and the FIFA 95 images are from a video by [10min Gameplay](https://www.youtube.com/@10minGameplay1) (YouTube).
 
 The training dataset also contains augmentations.
 
