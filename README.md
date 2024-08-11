@@ -67,7 +67,7 @@ There are three Convolutional Neural Network (CNN) models available:
 Most of the images are from my own gameplay footage.
 The PES 2012 and FIFA 10 images are from videos by [No Commentary Gameplays](https://www.youtube.com/@NCGameplays), and the FIFA 95 images are from a video by [10min Gameplay](https://www.youtube.com/@10minGameplay1) (YouTube).
 
-The training dataset also contains augmentations.
+The training dataset also contained augmentations (not in the provided zip-file.
 
 ### Augmentation
 To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in _**./data/train/metadata/**_.
