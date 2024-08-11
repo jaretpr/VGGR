@@ -3,7 +3,6 @@
 
 VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification project. The training, validation, and test datasets consist of gameplay images, as well as different augmentations.<br clear="left"/>
 
-<br />
 
 ## Requirements
 1. Install Python **3.10** or newer.
@@ -15,7 +14,6 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
 
 **Note:** The provided training dataset does not contain augmentations.
 
-<br />
 
 ## Genres
 The available genres are:
@@ -24,7 +22,6 @@ The available genres are:
 - 2D Platformer
 - Racing
 
-<br />
 
 ## Usage
 **Demo with Test Set:**
@@ -55,7 +52,6 @@ or
 - The -d (--device) command defaults to *cpu*.
 - You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch (both options require training data).
 
-<br />
 
 ## Performance
 There are three Convolutional Neural Network (CNN) models available:
@@ -63,14 +59,13 @@ There are three Convolutional Neural Network (CNN) models available:
 1. *cnn_v1* | F-score of **70.83 %**
 2. *cnn_v2* | F-score of **58.33 %**
 3. *cnn_v3* | F-score of **64.58 %**
-<br />
+
 
 ### cnn_v1 --demo examples:
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="center" width="500">
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="center" width="470">
 <br clear="center"/>
 
-<br />
 
 ## Data
 Most of the images are from my own gameplay footage.
@@ -78,19 +73,16 @@ The PES 2012 and FIFA 10 images are from videos by [No Commentary Gameplays](htt
 
 The training dataset also contains augmentations.
 
-<br />
 
 ## Augmentation
 To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in _**./data/train/metadata/**_.
 
 Then run `python VGGR.py --augment`
 
-<br />
 
 ## Preprocessing
-All images are originally 2560x1440p, and get resized to 1280x720p before training, validation, and inference. 
+All images are originally 2560x1440p, and get resized to 1280x720p before training, validation, and inference. 4:3 images are stretched to 16:9 to avoid black bars.
 
-<br />
 
 ## Libraries
 * [PyTorch](https://pytorch.org/) and its dependencies
