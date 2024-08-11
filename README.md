@@ -77,7 +77,7 @@ Then run `python VGGR.py --augment`.
 The metadata of the resulting images are subsequently written to the _**metadata.csv**_ file.
 
 
-## Preprocessing
+### Preprocessing
 All images are originally 2560x1440p, and get resized to 1280x720p before training, validation, and inference. 4:3 images are stretched to 16:9 to avoid black bars.
 
 
