@@ -72,7 +72,8 @@ The training dataset also contains augmentations.
 <br />
 
 ## Augmentation
-To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in *data/train/metadata/*.
+To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in _**./data/train/metadata/**_.
+
 Then run `python VGGR.py --augment`
 
 <br />
