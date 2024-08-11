@@ -54,6 +54,8 @@ or
 >python VGGR.py --train -m cnn_v1 -d cuda
 >```
 
+<br />
+
 - The -m (--model) command defaults to the *cnn_v1* model.
 - The --demo mode creates html files with the predictions and corresponding images inside the *results* folder.
 - The -d (--device) command defaults to *cpu*.
