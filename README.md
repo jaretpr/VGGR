@@ -22,6 +22,26 @@ The available genres are:
 - 2D Platformer
 - Racing
 
+## Games
+### Train
+- FIFA 06
+- Call of Duty Black Ops
+- Call of Duty Modern Warfare 3
+- DuckTales Remastered
+- Project CARS
+
+### Test
+- PES 2012
+- FIFA 10
+- Counter Strike 1.6
+- Counter Strike 2
+- Ori and the Blind Forest
+- Dirt 3
+
+### Validation
+- Left 4 Dead 2
+- Oddworld Abe's Oddysee
+- FlatOut 2
 
 ## Usage
 ### Demo with Test Set
