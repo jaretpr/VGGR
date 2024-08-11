@@ -18,7 +18,7 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
 <br />
 
 ## Genres
-There are currently four genres available:
+The available genres are:
 - Football / Soccer
 - First Person Shooter (FPS)
 - 2D Platformer
