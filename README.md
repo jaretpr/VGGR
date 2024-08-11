@@ -23,14 +23,14 @@ The available genres are:
 - Racing
 
 ## Games
-### Train
+### Train Set
 - FIFA 06
 - Call of Duty Black Ops
 - Call of Duty Modern Warfare 3
 - DuckTales Remastered
 - Project CARS
 
-### Test
+### Test Set
 - PES 2012
 - FIFA 10
 - Counter Strike 1.6
@@ -38,7 +38,7 @@ The available genres are:
 - Ori and the Blind Forest
 - Dirt 3
 
-### Validation
+### Validation Set
 - Left 4 Dead 2
 - Oddworld Abe's Oddysee
 - FlatOut 2
