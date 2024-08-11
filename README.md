@@ -10,7 +10,7 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
 >`pip3 install torch==2.2.2 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121`
 3. Install the required packages by running `pip install -r requirements.txt` in your shell of choice.
 4. Download the latest source code and the train, test, and validation img zip-files in [*releases*](https://github.com/m4cit/VGGR/releases).
-5. Unzip the train, test, and validation img files inside their respective folders in _**./data/**_.
+5. Unzip the train, test, and validation img files inside their respective folders located in _**./data/**_.
 
 **Note:** The provided training dataset does not contain augmentations.
 
