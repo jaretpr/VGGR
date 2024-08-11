@@ -18,7 +18,7 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
 <br />
 
 ## Performance
-There are currently three Convolutional Neural Network (CNN) models available:
+There are three Convolutional Neural Network (CNN) models available:
 
 1. *cnn_v1* | F-score of **70.83 %**
 2. *cnn_v2* | F-score of **58.33 %**
