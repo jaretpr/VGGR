@@ -46,7 +46,7 @@ or
 - The -m (--model) command defaults to the best performing model.
 - The --demo mode creates html files with the predictions and corresponding images inside the *results* folder.
 - The -d (--device) command defaults to *cpu*.
-- You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch (both options require training data).
+- You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch.
 
 
 ## Performance
