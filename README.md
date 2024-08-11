@@ -26,19 +26,19 @@ The available genres are:
 ## Usage
 ### Demo with Test Set
 >```
->python VGGR.py --demo --model cnn_v1 --device cuda
+>python VGGR.py --demo --model cnn_v1 --device cpu
 >```
 or
 >```
->python VGGR.py --demo -m cnn_v1 -d cuda
+>python VGGR.py --demo -m cnn_v1 -d cpu
 >```
 ### Predict with Custom Input
 >```
->python VGGR.py --predict -m cnn_v1 -d cuda -i path/to/img.png
+>python VGGR.py --predict -m cnn_v1 -d cpu -i path/to/img.png
 >```
 ### Training
 >```
->python VGGR.py --train -m cnn_v1 -d cuda
+>python VGGR.py --train -m cnn_v1 -d cpu
 >```
 
 <br />
