@@ -24,7 +24,7 @@ The available genres are:
 
 
 ## Usage
-**Demo with Test Set:**
+### Demo with Test Set:
 >```
 >python VGGR.py --demo --model cnn_v1 --device cuda
 >```
@@ -32,15 +32,11 @@ or
 >```
 >python VGGR.py --demo -m cnn_v1 -d cuda
 >```
-\
-\
-**Predict with Custom Input:**
+### Predict with Custom Input:
 >```
 >python VGGR.py --predict -m cnn_v1 -d cuda -i path/to/img.png
 >```
-\
-\
-**Training:**
+### Training:
 >```
 >python VGGR.py --train -m cnn_v1 -d cuda
 >```
@@ -77,7 +73,9 @@ The training dataset also contains augmentations.
 ## Augmentation
 To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in _**./data/train/metadata/**_.
 
-Then run `python VGGR.py --augment`
+Then run `python VGGR.py --augment`.
+
+The metadata of the resulting images are subsequently written to the _**metadata.csv**_ file.
 
 
 ## Preprocessing
