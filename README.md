@@ -69,8 +69,7 @@ The PES 2012 and FIFA 10 images are from videos by [No Commentary Gameplays](htt
 
 The training dataset also contains augmentations.
 
-
-## Augmentation
+### Augmentation
 To augment the training data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the *augment.csv* file located in _**./data/train/metadata/**_.
 
 Then run `python VGGR.py --augment`.
