@@ -74,7 +74,7 @@ To augment the training data with *jittering*, *inversion*, and *5 part cropping
 
 Then run `python VGGR.py --augment`.
 
-The metadata of the resulting images are subsequently written to the _**metadata.csv**_ file.
+The metadata of the resulting images are subsequently added to the _**metadata.csv**_ file.
 
 
 ### Preprocessing
