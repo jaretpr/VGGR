@@ -24,7 +24,7 @@ The available genres are:
 
 
 ## Usage
-### Demo with Test Set:
+### Demo with Test Set
 >```
 >python VGGR.py --demo --model cnn_v1 --device cuda
 >```
@@ -32,11 +32,11 @@ or
 >```
 >python VGGR.py --demo -m cnn_v1 -d cuda
 >```
-### Predict with Custom Input:
+### Predict with Custom Input
 >```
 >python VGGR.py --predict -m cnn_v1 -d cuda -i path/to/img.png
 >```
-### Training:
+### Training
 >```
 >python VGGR.py --train -m cnn_v1 -d cuda
 >```
@@ -57,7 +57,7 @@ There are three Convolutional Neural Network (CNN) models available:
 3. *cnn_v3* | F-score of **64.58 %**
 
 
-### cnn_v1 --demo examples:
+### cnn_v1 --demo examples
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="center" width="500">
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="center" width="470">
 <br clear="center"/>
