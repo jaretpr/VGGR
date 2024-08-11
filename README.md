@@ -26,21 +26,6 @@ The available genres are:
 
 <br />
 
-## Performance
-There are three Convolutional Neural Network (CNN) models available:
-
-1. *cnn_v1* | F-score of **70.83 %**
-2. *cnn_v2* | F-score of **58.33 %**
-3. *cnn_v3* | F-score of **64.58 %**
-<br />
-
-### cnn_v1 --demo examples:
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="center" width="500">
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="center" width="470">
-<br clear="center"/>
-
-<br />
-
 ## Usage
 **Demo with Test Set:**
 >```
@@ -65,10 +50,25 @@ or
 
 <br />
 
-- The -m (--model) command defaults to the *cnn_v1* model.
+- The -m (--model) command defaults to the best performing model.
 - The --demo mode creates html files with the predictions and corresponding images inside the *results* folder.
 - The -d (--device) command defaults to *cpu*.
 - You can predict with the included pre-trained models, and re-train if needed. Delete the existing model to train from scratch (both options require training data).
+
+<br />
+
+## Performance
+There are three Convolutional Neural Network (CNN) models available:
+
+1. *cnn_v1* | F-score of **70.83 %**
+2. *cnn_v2* | F-score of **58.33 %**
+3. *cnn_v3* | F-score of **64.58 %**
+<br />
+
+### cnn_v1 --demo examples:
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_1.png' align="center" width="500">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_2.png' align="center" width="470">
+<br clear="center"/>
 
 <br />
 
