@@ -1,7 +1,9 @@
 # VGGR
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/icon.png' align="left" height="180">
-
-VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification project. The training, validation, and test datasets consist of gameplay images.<br clear="left"/>
+Have you ever seen a gameplay video and wondered what kind of game it is from? No? Well, don't wonder no more.
+<br /><br />
+VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification project, answering questions nobody is asking.
+<br clear="left"/>
 
 
 ## Requirements
